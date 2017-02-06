@@ -1,9 +1,11 @@
 package com.ran;
 
+import com.linkedlist.MiddleElement;
+
 public class Application {
 
 	public static void main(String[] args) {
-		Primitive primitive = new Primitive();
-		primitive.printPrimitive(100);
+		MiddleElement middleElement = new MiddleElement();
+		middleElement.findMideElement();
 	}
 }
