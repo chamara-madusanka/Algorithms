@@ -1,11 +1,12 @@
 package com.ran;
 
-import com.linkedlist.MiddleElement;
+import com.duplicate.DuplicateNumber;
 
 public class Application {
 
 	public static void main(String[] args) {
-		MiddleElement middleElement = new MiddleElement();
-		middleElement.findMideElement();
+		DuplicateNumber duplicateNumber = new DuplicateNumber();
+		int i = duplicateNumber.getDuplicate();
+		System.out.println(i);
 	}
 }
